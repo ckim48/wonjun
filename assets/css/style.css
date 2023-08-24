@@ -19,7 +19,33 @@ a:hover {
   color: #727EC2
   text-decoration: none;
 }
+/* Style the list container */
+.experience-list {
+/*  list-style: none;*/
+  padding: 0;
+  margin: 0;
+  margin-left: 30px !important;
+}
+.jailgameimg{
+  width:70%;
+}
+/* Style each list item */
+.experience-list li {
+  margin-bottom: 15px;
+}
 
+/* Style the job title */
+.experience-title {
+/*  font-weight: bold;*/
+  font-size: 0.8 rem;
+  color: #333; /* You can change the color to your preference */
+}
+
+/* Style the grade information */
+.experience-grade {
+  font-size: 0.9em;
+  color: #777; /* You can change the color to your preference */
+}
 h1,
 h2,
 h3,
