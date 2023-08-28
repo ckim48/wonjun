@@ -385,7 +385,18 @@ h6 {
   transition: 0.5s;
   color: black;
   height: 60px;
+    animation: moveUpDown 2s linear infinite;
+
 }
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
