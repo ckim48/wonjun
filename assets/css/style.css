@@ -138,7 +138,7 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-
+/*  display: none;*/
   padding: 0;
 }
 

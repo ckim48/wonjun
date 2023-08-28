@@ -1,10 +1,4 @@
-/**
-* Template Name: Lonely
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -38,6 +32,8 @@
    * Easy on scroll event listener 
    */
   const onscroll = (el, listener) => {
+          var header = document.querySelector('header');
+  header.classList.add('d-flex');
     el.addEventListener('scroll', listener)
   }
 
@@ -46,6 +42,7 @@
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
+
     let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
@@ -58,6 +55,24 @@
       }
     })
   }
+
+    const activateContactLink = () => {
+    const contactLink = select('#navbar #contact'); 
+    const documentHeight = document.documentElement.scrollHeight;
+    const windowHeight = window.innerHeight;
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition + windowHeight >= documentHeight) {
+      contactLink.classList.add('active');
+    } else {
+      contactLink.classList.remove('active');
+    }
+  }
+
+  onscroll(document, activateContactLink);
+
+
+
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
