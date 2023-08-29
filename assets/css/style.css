@@ -599,6 +599,10 @@ section {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .mobile-img{
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
   .about .image img {
     max-width: 100%;
   }
