@@ -599,12 +599,19 @@ section {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .mobilem{
+    margin-left: 12px !important;
+  }
+    .mobilem2{
+    margin-right: 12px !important;
+  }
   .mobile-img{
     margin-top: 35px;
     margin-bottom: 50px;
   }
   .about .image img {
     max-width: 100%;
+    margin-top: 39px;
   }
 }
 
