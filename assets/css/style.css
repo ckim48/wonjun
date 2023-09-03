@@ -561,9 +561,93 @@ section {
     margin-bottom: -30px !important;
 }
 .profileimg{
-  height:65%;
+  height:55% !important;
+  margin-top: 120px !important;
+}
+.text-justify {
+  text-align: justify;
+}
+.mylink{
+  text-decoration: none;
+}
+.accordion{
+  --bs-accordion-active-bg: #F3EADE; 
+  --bs-accordion-active-color: #FCF9F5; 
+  --bs-accordion-btn-focus-border-color: #FCF9F5; 
+}
+        .accordion-header {
+            background-color: #FCF9F5; 
+            color: black; 
+        }
+
+        .accordion-body {
+            background-color: #FCF9F5; 
+            color: black; 
+            border: none;
+            font-size: 14px;
+        }
+
+        .accordion-button {
+            background-color: white; 
+            color: black; 
+        }
+
+
+        .accordion-button:hover {
+            background-color: #F3EADE; 
+        }
+                .accordion-item.active .accordion-header {
+            background-color: #F3EADE; 
+            color: black;
+            border:none;
+
+        }
+                .accordion-item.active .accordion-body {
+            background-color: #F3EADE; 
+            color: black;
+            border:none;
+        }
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: #FCDDB2;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #FCA022;
+}
+        .carousel {
+            max-width: 500px; 
+            margin: 0 auto;
+
+        }
+        .clubCarousel{
+          max-width: 300px; 
+          height:70%;
+        }
+                .clubCarouselLong{
+          max-width: 450px; 
+          height:70%;
+        }
+                        .clubCarouselLongB{
+          max-width: 580px; 
+          height:70%;
+        }
+        .carousel-item {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .carousel-item img {
+            max-width: 100%;
+            height: 400px;
+        }
 .about .content .count-box a {
   font-weight: 600;
   display: block;
@@ -577,7 +661,9 @@ section {
 .about .content .count-box a:hover {
   color: #6b96be;
 }
-
+/*.page-2{
+  display: none;
+}*/
 /*.about .image {
   background: url("../img/myprofile.png") center center no-repeat;
   background-size: cover;
@@ -795,14 +881,56 @@ section {
     bottom: 60%;
   }
 }
+.pagination {
+  margin: 20px 0;
+  text-align: center;
+}
 
+.pagination a.page-link {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  border:none;
+  margin: 0 4px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+a:focus,a:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #F7E5CD;
+  color: #fff;
+  border:none;
+  border: 1px solid #EBC593;
+}
+
+.pagination a.page-link:hover {
+  background-color: #F7E5CD;
+  color: #fff;
+  border:none;
+  border: 1px solid #F7E5CD;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #999;
+  cursor: not-allowed;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-
+        #load-more-button {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -842,11 +970,6 @@ section {
   overflow: hidden;
   z-index: 1;
 }
-
-/*.port-img{
-      width: 300px;
-    height: 220px; 
-}*/
 
 .portfolio .portfolio-wrap::before {
   content: "";
