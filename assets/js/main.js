@@ -56,20 +56,20 @@
     })
   }
 
-  //   const activateContactLink = () => {
-  //   const contactLink = select('#navbar #contact'); 
-  //   const documentHeight = document.documentElement.scrollHeight;
-  //   const windowHeight = window.innerHeight;
-  //   const scrollPosition = window.scrollY;
+    const activateContactLink = () => {
+    const contactLink = select('#navbar #contact'); 
+    const documentHeight = document.documentElement.scrollHeight;
+    const windowHeight = window.innerHeight;
+    const scrollPosition = window.scrollY;
 
-  //   if (scrollPosition + windowHeight >= documentHeight) {
-  //     contactLink.classList.add('active');
-  //   } else {
-  //     contactLink.classList.remove('active');
-  //   }
-  // }
+    if (scrollPosition + windowHeight >= documentHeight) {
+      contactLink.classList.add('active');
+    } else {
+      contactLink.classList.remove('active');
+    }
+  }
 
-  // onscroll(document, activateContactLink);
+  onscroll(document, activateContactLink);
 
 
 
