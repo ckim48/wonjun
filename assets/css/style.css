@@ -10,6 +10,9 @@ body {
 .myvideo{
 width: 75%;
 }
+.page-2{
+  display: none;
+}
 header{
   display: none !important;
 }
