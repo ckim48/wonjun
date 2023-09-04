@@ -15,6 +15,9 @@ width: 75%;
 .page-2{
   display: none;
 }
+.page-3{
+  display: none;
+}
 header{
   display: none !important;
 }
@@ -1446,7 +1449,7 @@ a:focus,a:active {
     content: attr(data-date);
     text-align: right;
     font-weight: 100;
-    font-size: 1.1em;
+    font-size: 1em;
     min-width: 120px;
 }
 
