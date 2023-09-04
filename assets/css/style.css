@@ -6,7 +6,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #454647;
+  width:100% !important;
 }
+
 .myvideo{
 width: 75%;
 }
@@ -17,12 +19,14 @@ header{
   display: none !important;
 }
 a {
-  color: #727EC2
+  color: #727EC2;
   text-decoration: none;
 }
-
+.container{
+  width: 100% !important;
+}
 a:hover {
-  color: #727EC2
+  color: #727EC2;
   text-decoration: none;
 }
 /* Style the list container */
@@ -428,10 +432,10 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/*section {
   padding: 60px 0;
 }
-
+*/
 .section-bg {
   background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
@@ -684,6 +688,12 @@ section {
 }
 
 @media (max-width: 667px) {
+  section{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
   .intro-margin{
     margin-left: 20px;
     margin-right: 20px;
