@@ -689,7 +689,18 @@ section {
     max-width: 80%;
   }
 }
-
+.savetheworld{
+  font-size: 16px;
+}
+.italic{
+  font-style: italic;
+}
+.small{
+  font-size: 14px;
+}
+.minusmargin{
+  .margin-top: -20px;
+}
 @media (max-width: 667px) {
   section{
     width: 100%;
@@ -1413,10 +1424,16 @@ a:focus,a:active {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
-.timeline p {
+.timeline p, ul {
     font-size: 0.85rem;
-;
 }
+.experience-title.float-right {
+    float: right !important;
+}
+
+
+
+
 
 .timeline .event {
     border-bottom: 1px dashed #F54713;
