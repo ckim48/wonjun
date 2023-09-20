@@ -689,8 +689,55 @@ section {
     max-width: 80%;
   }
 }
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 10px;
+  max-width: 800px;
+}
+
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image:hover{
+  scale:1.04;
+}
+.image1 {
+  background-image: url('../img/vexaward3.png');
+
+}
+
+.image2 {
+  background-image: url('../img/speechaward.png');
+
+}
+
+.image3 {
+  background-image: url('../img/award1.png');
+
+}
+.image4 {
+  background-image: url('../img/vexaward1.png');
+
+}
+.image5 {
+  background-image: url('../img/vexaward5.png');
+
+}
+.image6 {
+  background-image: url('../img/robotics.jpeg');
+
+}
+
 .savetheworld{
   font-size: 16px;
+}
+.collage1 img{
+  height:300px;
 }
 .italic{
   font-style: italic;
