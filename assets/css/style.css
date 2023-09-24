@@ -700,16 +700,26 @@ section {
 
 .collage2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-template-rows: repeat(3, 200px);
   gap: 10px;
   max-width: 800px;
 }
+
 
 .image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.image_con {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image_con:hover {
+scale:1.04;
 }
 .image:hover{
   scale:1.04;
@@ -718,12 +728,61 @@ section {
   background-image: url('../img/vexaward3.png');
 
 }
+.firstc2{
+  display:none;
+}
+.firstc3{
+  display:none;
+}
+.firstc4{
+  display:none;
+}
+.firstc5{
+  display:none;
+}
+.firstc6{
+  display:none;
+}
+.firstc7{
+  display:none;
+}
+.firstc8{
+  display:none;
+}
+.mart{
+  margin-top: 80px;
+}
+.mart2{
+  margin-top: 100px;
+}
 
+.minusmargin{
+  margin-top: -85px;
+}
+.btn-primary{
+  background-color: white;
+  border: 1px solid #EE9C38;
+  color: black;
+  height: 55px;
+}
+.btn.active {
+  background-color: #EE9C38;
+  border: 1px solid #F7E5CD;
+  color: white;
+}
+.btn-primary:hover{
+  background-color: #EE9C38;
+  border: 1px solid #F7E5CD;
+}
+}
 .image2 {
   background-image: url('../img/speechaward.png');
 
 }
-
+   .btn {
+      width: 100%;
+      text-align: center;
+    }
 .image3 {
   background-image: url('../img/award1.png');
 
@@ -740,21 +799,29 @@ section {
   background-image: url('../img/robotics.jpeg');
 
 }
+
 .image7 {
+  grid-column: 1; /* First column */
+  grid-row: 1; /* First row */
   background-image: url('../img/clubs3.png');
-
 }
+
 .image8 {
+  grid-column: 1; /* First column */
+  grid-row: 2; /* Second row */
   background-image: url('../img/clubbb.png');
-
 }
+
 .image9 {
+  grid-column: 1; /* First column */
+  grid-row: 3; /* Third row */
   background-image: url('../img/clubbb1.png');
-
 }
-.image10 {
-  background-image: url('../img/clubbb2.png');
 
+.image10 {
+  grid-column: 2; /* Second column */
+  grid-row: span 3; /* Spans 3 rows */
+  background-image: url('../img/clubbb2.png');
 }
 
 .savetheworld{
