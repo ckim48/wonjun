@@ -8,6 +8,9 @@ body {
   color: #454647;
   width:100% !important;
 }
+.lh:hover{
+color:darkblue !important;
+}
 
 .myvideo{
 width: 75%;
