@@ -8,8 +8,18 @@ body {
   color: #454647;
   width:100% !important;
 }
+.lh{
+  background-color: lightblue;
+  border:darkblue;
+  border: 1px solid #345676;
+  padding: 10px 25px 10px 25px;
+  color:#345676;;
+  margin-top: 15px !important;
+  transition: 0.4s;
+}
 .lh:hover{
-color:darkblue !important;
+background-color:#345676  !important;
+color:white;
 }
 
 .myvideo{
