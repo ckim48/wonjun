@@ -771,6 +771,7 @@ scale:1.04;
   margin-top: 100px;
 }
 
+
 .minusmargin{
   margin-top: -85px;
 }
@@ -854,7 +855,10 @@ scale:1.04;
 .minusmargin{
   .margin-top: -20px;
 }
-@media (max-width: 667px) {
+@media (max-width: 800px) {
+  .minusmargin{
+    margin-top: 35px !important;
+  }
   section{
     width: 100%;
   }
