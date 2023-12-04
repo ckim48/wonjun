@@ -21,7 +21,9 @@ body {
 background-color:#345676  !important;
 color:white;
 }
-
+.duration-minus{
+  margin-top: -14px;
+}
 .myvideo{
 width: 75%;
 }
